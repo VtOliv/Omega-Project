@@ -1,0 +1,14 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  color: white;
+  background-color: rgb(60, 60, 60);
+  width: 88.7vw;
+  height: 45vh;
+}
+
+h1 {
+  font-size: 4em
+}
