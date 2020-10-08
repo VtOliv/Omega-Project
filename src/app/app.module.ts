@@ -13,6 +13,7 @@ import { CanecasComponent } from './products/canecas/canecas.component';
 import { ChinelosComponent } from './products/chinelos/chinelos.component';
 import { AzulejosComponent } from './products/azulejos/azulejos.component';
 import { AlmofadasComponent } from './products/almofadas/almofadas.component';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { AlmofadasComponent } from './products/almofadas/almofadas.component';
     BrowserAnimationsModule,
     MatCardModule,
     MatMenuModule,
-    MatButtonModule
+    MatButtonModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,14 +1,15 @@
 <mat-card>
     <mat-card-content>
 
-        <div class="itensMenu">
-            <button mat-raised-button class="menuItem" routerLink="/produtos/camisetas"><strong>Camisetas</strong></button>
-            <button mat-raised-button class="menuItem" routerLink="/produtos/canecas"><strong>Canecas</strong></button>
-            <button mat-raised-button class="menuItem" routerLink="/produtos/chinelos"><strong>Chinelos</strong></button>
-            <button mat-raised-button class="menuItem" routerLink="/produtos/azulejos"><strong>Azulejos</strong></button>
-            <button mat-raised-button class="menuItem" routerLink="/produtos/almofadas"><strong>Almofadas</strong></button>
+        <button mat-raised-button [matMenuTriggerFor]="menu"><i class="pi pi-bars"></i></button>
 
-        </div>
+        <mat-menu class="menu" #menu="matMenu">
+            <button mat-menu-item routerLink="/produtos/camisetas"><strong>Camisetas</strong></button>
+            <button mat-menu-item routerLink="/produtos/canecas"><strong>Canecas</strong></button>
+            <button mat-menu-item routerLink="/produtos/chinelos"><strong>Chinelos</strong></button>
+            <button mat-menu-item routerLink="/produtos/azulejos"><strong>Azulejos</strong></button>
+            <button mat-menu-item routerLink="/produtos/almofadas"><strong>Almofadas</strong></button>
+        </mat-menu>
     </mat-card-content>
 </mat-card>
 
