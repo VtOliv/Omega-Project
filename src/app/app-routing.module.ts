@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router'
-import { MainContentComponent } from './main-content/main-content.component';
-import { CamisetasComponent } from './products/camisetas/camisetas.component';
-import { ChinelosComponent } from './products/chinelos/chinelos.component';
-import { CanecasComponent } from './products/canecas/canecas.component';
-import { AzulejosComponent } from './products/azulejos/azulejos.component';
-import { AlmofadasComponent } from './products/almofadas/almofadas.component';
+import { MainContentComponent } from './Components/main-content/main-content.component';
+import { CamisetasComponent } from './Components/products/camisetas/camisetas.component';
+import { ChinelosComponent } from './Components/products/chinelos/chinelos.component';
+import { CanecasComponent } from './Components/products/canecas/canecas.component';
+import { AzulejosComponent } from './Components/products/azulejos/azulejos.component';
+import { AlmofadasComponent } from './Components/products/almofadas/almofadas.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},

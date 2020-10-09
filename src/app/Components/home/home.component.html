@@ -1,0 +1,17 @@
+<mat-card>
+    <mat-card-content>
+
+        <button class="menu" mat-raised-button [matMenuTriggerFor]="menu"><i class="pi pi-bars"></i></button>
+
+        <mat-menu #menu="matMenu">
+            <button *ngFor="let menu of menus" mat-menu-item routerLink="{{menu.url}}">{{menu.descricao}}</button>
+        </mat-menu>
+    </mat-card-content>
+</mat-card>
+
+
+
+<div class="imgHolder">
+
+    <img class="fade-in" src="./assets/gowLogo.png" alt="">
+</div>

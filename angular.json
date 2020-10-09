@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "app-omega"
+  "defaultProject": "app-omega",
+  "cli": {
+    "analytics": false
+  }
 }
