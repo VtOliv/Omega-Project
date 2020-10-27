@@ -20,6 +20,7 @@ mat-card, mat-card-content {
 }
 
 .imgHolder {
+    height: 170px;
     display: flex;
     justify-content: center;
     background-color: black;
