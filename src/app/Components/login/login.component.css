@@ -1,0 +1,70 @@
+.estrutura {
+  display: flex;
+  justify-content: center;
+}
+
+mat-card {
+  width: 80%;
+  margin-top: 30px;
+  padding: 0;
+  height: 300px;
+}
+
+mat-card-content {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.cadastrar {
+  background-color: black;
+  font-size: 15px;
+  height: 300px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logar h3 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.logar {
+  padding: 10px;
+  background-color: gray;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+mat-form-field {
+  width: 100%;
+  margin: 5px;
+  background-color: initial !important;
+}
+
+.btnLogin {
+    margin: 5px;
+    width: 20%;
+}
+
+::ng-deep .mat-form-field-wrapper {
+  background-color: rgb(228, 227, 227) !important;
+  padding: 0;
+  border-radius: 5px !important;
+}
+
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+  color: #690606 !important;
+}
+
+::ng-deep .mat-focused .mat-form-field-label {
+  color: #690606 !important;
+  font-size: 15px;
+}

@@ -3,7 +3,12 @@ mat-card, mat-card-content {
     color: white;
     padding: 0;
     margin: 0;
-    position: fixed;
+}
+
+mat-card-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .itensMenu {
@@ -24,6 +29,7 @@ mat-card, mat-card-content {
     display: flex;
     justify-content: center;
     background-color: black;
+    margin-top: -30px;
 }
 
 .menuItem:hover {

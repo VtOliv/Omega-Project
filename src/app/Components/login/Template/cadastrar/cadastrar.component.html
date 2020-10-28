@@ -1,0 +1,29 @@
+<div class="estrutura">
+
+    <mat-card>
+
+        <mat-card-content>
+            <div class="logar">
+                <h3>Cadastrar</h3>
+                <div>
+                    <mat-form-field class="loginForm" appearance='outline'>
+                        <mat-label>Nome</mat-label>
+                        <input matInput name="nomeUsuario" [(ngModel)]="cadastro.nomeUsuario" (input)="cadastro.nomeUsuario">
+                    </mat-form-field>
+
+                    <mat-form-field class="loginForm" appearance='outline'>
+                        <mat-label>Email</mat-label>
+                        <input matInput name="email" type="email" [(ngModel)]="cadastro.email" (input)="cadastro.email">
+                    </mat-form-field>
+
+                    <mat-form-field class="loginForm" appearance='outline'>
+                        <mat-label>Senha</mat-label>
+                        <input matInput name="senha" type="password" [(ngModel)]="cadastro.senha" (input)="cadastro.senha">
+                    </mat-form-field>
+
+                </div>
+                <button mat-raised-button class="btnLogin" (click)="cadastrar()">Cadastrar</button>
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>

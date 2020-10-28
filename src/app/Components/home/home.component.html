@@ -6,12 +6,15 @@
         <mat-menu #menu="matMenu">
             <button *ngFor="let menu of menus" mat-menu-item routerLink="{{menu.url}}">{{menu.descricao}}</button>
         </mat-menu>
+
+        <div>
+            <button mat-raised-button class="menu" routerLink="/login"><i class="pi pi-user"></i></button>
+        </div>
     </mat-card-content>
 </mat-card>
 
 
 
-<div class="imgHolder">
-
+<div class="imgHolder" routerLink="/home">
     <img class="fade-in" src="./assets/gowLogo.png" alt="">
 </div>

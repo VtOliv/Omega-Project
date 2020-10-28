@@ -7,10 +7,14 @@ import { ChinelosComponent } from './Components/products/chinelos/chinelos.compo
 import { CanecasComponent } from './Components/products/canecas/canecas.component';
 import { AzulejosComponent } from './Components/products/azulejos/azulejos.component';
 import { AlmofadasComponent } from './Components/products/almofadas/almofadas.component';
+import { LoginComponent } from './Components/login/login.component';
+import { CadastrarComponent } from './Components/login/Template/cadastrar/cadastrar.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
   { path: 'home', component: MainContentComponent},
+  { path: 'login', component:LoginComponent},
+  { path: 'login/cadastrar', component:CadastrarComponent},
   { path: 'produtos/camisetas', component: CamisetasComponent},
   { path: 'produtos/chinelos', component: ChinelosComponent},
   { path: 'produtos/canecas', component: CanecasComponent},
